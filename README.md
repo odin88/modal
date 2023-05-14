@@ -238,6 +238,7 @@ public static function modalMaxWidth(): string
     return 'xl';
 }
 ```
+If you are using TailwindCSS 3, you need to update your [tailwind.config.js](https://github.com/wire-elements/modal/issues/150) 
 
 By default, the modal will close when you hit the `escape` key. If you want to disable this behavior to, for example, prevent accidentally closing the modal you can overwrite the static `closeModalOnEscape` method and have it return `false`.
 ```php
